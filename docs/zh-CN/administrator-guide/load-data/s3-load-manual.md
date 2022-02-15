@@ -28,7 +28,7 @@ under the License.
 
 从0.14 版本开始，Doris 支持通过S3协议直接从支持S3协议的在线存储系统导入数据。
 
-本文档主要介绍如何导入 AWS S3 中存储的数据。也支持导入其他支持S3协议的对象存储系统导入，如果百度云的BOS，阿里云的OSS和腾讯云的COS等、
+本文档主要介绍如何导入 AWS S3 中存储的数据。也支持导入其他支持S3协议的对象存储系统导入，如百度云的BOS，阿里云的OSS和腾讯云的COS等、
 
 ## 适用场景
 
@@ -36,7 +36,7 @@ under the License.
 * 数据量在 几十到百GB 级别。
 
 ## 准备工作
-1. 准本AK 和 SK
+1. 准备AK 和 SK
    首先需要找到或者重新生成 AWS `Access keys`，可以在AWS console 的 `My Security Credentials` 找到生成方式， 如下图所示：
    [AK_SK](/images/aws_ak_sk.png)
    选择 `Create New Access Key` 注意保存生成 AK和SK.
